@@ -1,5 +1,11 @@
 package edu.bu.met.cs665.PizzaSystem;
-
+/**
+ * Name: Xiangyu Hu
+ * Course: CS-665 Software Designs & Patterns
+ * Date: 12/12/2023
+ * File Name: Pizza.java
+ * Description: This class is main pizza class.
+ */
 import java.util.ArrayList;
 import java.util.List;
 

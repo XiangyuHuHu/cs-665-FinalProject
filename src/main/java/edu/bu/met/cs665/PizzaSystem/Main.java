@@ -1,5 +1,11 @@
 package edu.bu.met.cs665.PizzaSystem;
-
+/**
+ * Name: Xiangyu Hu
+ * Course: CS-665 Software Designs & Patterns
+ * Date: 12/12/2023
+ * File Name: main.java
+ * Description: This class is main file for some demo.
+ */
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -74,7 +80,6 @@ public class Main {
         LocalTime happyHourEnd = LocalTime.of(18, 0); // Example: 6 PM
         boolean isHappyHour = now.isAfter(happyHourStart) && now.isBefore(happyHourEnd);
 
-        // Apply appropriate pricing strategy
         PricingStrategy pricingStrategy;
         if (isHappyHour) {
             System.out.println("Happy Hour! Enjoy discounted prices.");
@@ -86,8 +91,6 @@ public class Main {
         double price = pricingStrategy.calculatePrice(pizza);
         System.out.println("Total Price: $" + price);
 
-        // Rest of the demo code for Observer and Strategy Patterns...
-        // Close the scanner
         scanner.close();
     }
 }
